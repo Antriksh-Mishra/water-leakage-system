@@ -1,0 +1,54 @@
+# Operating System Files
+.DS_Store
+Thumbs.db
+*.swp
+*~
+
+# Environment & Local Overrides
+.env
+.env.local
+.env.*.local
+.local/
+Library/
+*.zip
+
+# Python & Virtual Environments
+.venv/
+venv/
+env/
+__pycache__/
+*.py[cod]
+*$py.class
+*.pytest_cache/
+.coverage
+htmlcov/
+*.egg-info/
+dist/
+build/
+
+# Node & Frontend
+frontend/node_modules/
+frontend/dist/
+frontend/.cache/
+frontend/npm-debug.log*
+frontend/yarn-debug.log*
+frontend/yarn-error.log*
+
+# .NET / C#
+backend_csharp/**/bin/
+backend_csharp/**/obj/
+backend_csharp/**/.vs/
+backend_csharp/**/.vscode/
+*.user
+*.userosscache
+*.sln.docstates
+*.suo
+
+# Databases & Runtime Data
+*.db
+*.db-shm
+*.db-wal
+*.sqlite
+*.sqlite3
+water_system.db
+water_system_csharp.db
